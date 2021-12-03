@@ -1,0 +1,432 @@
+/* Responsive */
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+
+  .py-200 {
+    padding: 200px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .box-item {
+    padding: 20px;
+  }
+
+  .expertise-item {
+    /* padding: 0 20px 30px 20px; */
+  }
+
+  .subcribe-form {
+    padding: 20px 0;
+  }
+
+  .subcribe-info {
+    padding: 60px 0 0;
+  }
+
+  .banner-service {
+    padding: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1002px) {
+  .job-item {
+    display: block!important;
+  }
+
+  .job-desc {
+    width: 100%;
+  }
+
+  .job-desc p {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .job-link {
+    justify-content: end;
+  }
+
+  .job-link a {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .top-section .top-section-left h1 {
+    font-size: 50px;
+  }
+
+  header {
+    /* box-shadow: none; */
+  }
+
+  .navbar {
+    padding-bottom: 0;
+  }
+
+  .navbar .container {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 30px;
+  }
+
+  .navbar-toggler {
+    margin-right: 30px;
+  }
+
+  #navbarNavDropdown > ul {
+    margin: 0;
+    border-top: 1px solid #eaeaea;
+    margin-top: 0.5rem;
+  }
+
+  #navbarNavDropdown ul li {
+    background-color: #f9f9f9;
+    padding: 0;
+    line-height: 42px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: lighter;
+  }
+
+  #navbarNavDropdown ul li a {
+    font-weight: lighter;
+  }
+
+  .wrap-btn-contact {
+    display: none;
+  }
+
+  .dropdown .dropdown-menu {
+    margin: 0;
+    width: 100%;
+    box-shadow: none;
+    margin-top: 0;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .dropdown .dropdown-menu .dropdown-item {
+    padding: 0 40px;
+  }
+
+  .dropdown .dropdown-menu .dropdown-item::before {
+    content: ">";
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  #navbarNavDropdown .dropdown .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-boxes .box-item {
+    margin-right: 0;
+    margin-bottom: 30px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .title h2,
+  .team-introduction h2,
+  .client-reviews-title h2 {
+    font-size: 32px;
+  }
+
+  .team-introduction h2 {
+    margin: 20px 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  p,
+  span {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  .expertise-item {
+    margin-bottom: 30px;
+  }
+
+  .client-reviews-content .wrap-img {
+    margin: 0;
+  }
+
+  .client-reviews-bottom .row [class*="col"] {
+    margin-bottom: 30px;
+  }
+
+  .btn-main1,
+  .btn-main2 {
+    width: 100%;
+  }
+
+  .w-auto {
+    width: auto;
+  }
+
+  .wrap-btn-book {
+    border: none;
+  }
+
+  .wrap-book-item {
+    justify-content: space-evenly;
+  }
+
+  .navbar-brand img {
+    max-width: 315px;
+  }
+
+  .expertise-description-img,
+  .expertise-description-text {
+    padding: 0;
+  }
+
+  .top-section-left p {
+    max-width: 100%;
+  }
+
+  .border-left-text h2 {
+    font-size: 32px;
+  }
+
+  section {
+    padding: 20px 0 40px 0;
+  }
+
+  .owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span {
+    font-size: 50px;
+  }
+
+  .slider-item > div {
+    flex-direction: column;
+  }
+
+  .slider-item-text {
+    order: 2;
+  }
+
+  .slider-item-personal {
+    order: 1;
+    padding: 0 0 20px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .center-md {
+    justify-content: center;
+  }
+
+  .subcribe-item {
+    margin-bottom: 50px;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+  }
+
+  .subcribe-info-icon {
+    margin-right: 0;
+  }
+
+  .subcribe-form {
+    text-align: center;
+  }
+
+  .subcribe-form .wrap-icon,
+  .info-envelope {
+    margin-bottom: 30px;
+  }
+
+  .info-envelope span {
+    font-size: 20px;
+  }
+
+  .btn-main1,
+  .btn-main2 {
+    font-size: 13px;
+  }
+
+  .title h2,
+  .team-introduction h2,
+  .client-reviews-title h2 {
+    font-size: 25px;
+  }
+
+  .client-reviews-content > div {
+    flex-direction: column;
+  }
+
+  .banner-service {
+    padding: 40px 0;
+  }
+
+  .expertise-description-text h2,
+  .tech-stacks .text-left h2 {
+    font-size: 32px;
+  }
+
+  .order-one {
+    order: 1;
+  }
+
+  .order-two {
+    order: 2;
+  }
+
+  .process-steps {
+    padding: 0;
+  }
+
+  .tech-row {
+    justify-content: space-between;
+  }
+
+  .expertise-description-img .w-auto {
+    width: 100%!important;
+  }
+
+  .client-reviews-content .wrap-img {
+    width: 100%;
+  }
+
+  .our-process .step h4 {
+    font-size: 18px;
+  }
+
+  .blogs, .portfolios {
+    padding: 2rem;
+  }
+
+  .slider-item-text p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .navbar .container {
+    max-width: 100%;
+    /* padding: 0 30px; */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .top-section .top-section-left h1 {
+    font-size: 30px;
+  }
+
+  .top-section-left p {
+    max-width: 100%;
+  }
+
+  .partners-logo {
+    flex-wrap: wrap;
+  }
+
+  .partners-logo a {
+    flex: 1 0 33%;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+
+  .text-banner {
+    padding: 0 30px;
+  }
+
+  .footer-item {
+    margin-bottom: 20px;
+  }
+
+  .border-radius1 {
+    border-radius: 0;
+  }
+
+  .wrap-book-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrap-btn-book {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .client-reviews-content .content {
+    min-height: 250px;
+    padding: 30px 56px 30px 40px;
+  }
+
+  .client-reviews-content .content p {
+    font-size: 16px;
+  }
+
+  .navbar-brand img {
+    max-width: 220px;
+  }
+
+  .card-item {
+    display: block!important;
+    text-align: center;
+    padding: 0 0 30px 0;
+  }
+
+  .client-reviews-top {
+    padding: 40px 0;
+  }
+
+  .portfolios {
+    padding: 0;
+  }
+
+  .overall-left-text {
+    padding: 0 20px;
+  }
+
+  .overall-left-text h2 {
+    font-size: 22px;
+  }
+
+  .job-item {
+    display: block!important;
+  }
+
+  .job-desc {
+    width: 100%;
+  }
+
+  .job-desc p {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .job-link {
+    justify-content: end;
+  }
+
+  .job-link a {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .navbar .container {
+    justify-content: center;
+  }
+  .navbar-toggler {
+    margin-right: 0;
+  }
+}
