@@ -449,6 +449,9 @@ header {
 
 .project-item a {
   overflow: hidden;
+}
+
+.portfolios .project-item a {
   width: 100%;
 }
 
@@ -1221,4 +1224,22 @@ header {
 
 .apply-form .form-wrapper .form-control {
   border-color: #d7d7d9;
+}
+
+.post-cmt {
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
+.navigation a, .navigation span {
+  color: #f64c72;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.blog-detai-meta .blog-meta {
+  padding: 0;
+  font-size: 16px;
+  margin-bottom: 30px;
 }
